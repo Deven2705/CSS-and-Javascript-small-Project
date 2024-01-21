@@ -1,0 +1,56 @@
+body{
+    display: grid;
+    position: relative;
+    background-color: rgb(248, 242, 242);
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    
+    display: inline-flex;
+    border: 1px solid rgb(223, 196, 196);
+    padding: 5px 1px;
+    position: flex;
+    animation: animate  4s linear infinite;
+    
+    box-shadow: 0 0 0 rgba(14, 173, 236, 0.2),
+                0 0 10px rgba(22, 77, 99, 0.4),
+                0 0 20px rgba(22, 77, 99, 0.6),
+                0 0 30px rgb(22, 77, 99,0.8),
+                0 0 40px rgb(22, 77, 99,1);
+    box-sizing: 60% 60%;
+    
+}
+.box1 .box2 .box3{
+    
+    font-size: 100 px;
+    position: absolute;
+    
+    
+    
+}
+.box1{
+    border: 2px solid yellow;
+    color: green;
+    margin: 0 5px;
+    background:red;
+    padding: 10px 10px;
+    
+}
+.box2{
+    border: 2px solid green;
+    color:red;
+    margin: 0 5px;
+    padding: 10px 10px;
+    background:yellow;
+}
+.box3{
+    border: 2px solid yellow;
+    color:red;
+    margin: 0 5px;
+    background:green;
+    padding: 10px 10px;
+}
